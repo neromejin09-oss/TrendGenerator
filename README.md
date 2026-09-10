@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GUI](https://img.shields.io/badge/GUI-Tkinter-orange.svg)](https://docs.python.org/3/library/tkinter.html)
 
-A Python-powered data automation and dashboard generation pipeline. Features a clean Tkinter GUI control panel that automatically routes files, converts CSV to XLSX in batch, extracts and cleans target columns, and generates Excel dashboards with statistical summary cards and line charts[cite: 4].
+A Python-powered data automation and dashboard generation pipeline. Features a clean Tkinter GUI control panel that automatically routes files, converts CSV to XLSX in batch, extracts and cleans target columns, and generates Excel dashboards with statistical summary cards and line charts.
 
 ---
 
