@@ -12,16 +12,16 @@ A Python-powered data automation and dashboard generation pipeline. Features a c
 
 - **📁 Smart File Routing & Format Conversion**
   - Automatically routes files by extension upon import (`.csv` ➔ `input/` | `.xlsx` ➔ `convert/`).
-  - Automatically detects table header offsets and converts CSV files into clean Excel (`.xlsx`) workbooks[cite: 1, 4].
+  - Automatically detects table header offsets and converts CSV files into clean Excel (`.xlsx`) workbooks.
 
 - **🧹 Data Cleaning & Original Data Protection**
-  - **Non-destructive**: Preserves original worksheets (`Raw_Data`) and unmodified original headers[cite: 1, 4].
-  - Cleans empty rows and invalid fields, saving filtered data into a separate sheet (`Cleaned_Data`)[cite: 4].
+  - **Non-destructive**: Preserves original worksheets (`Raw_Data`) and unmodified original headers.
+  - Cleans empty rows and invalid fields, saving filtered data into a separate sheet (`Cleaned_Data`).
 
 - **📈 Automated Dashboard & Trend Visualization**
-  - Built with `openpyxl` to automatically build data dashboards[cite: 4].
-  - **Summary Cards**: Computes summary statistics including Count, Average, Max, and Min for numeric columns[cite: 4].
-  - **Dynamic Charts**: Automatically creates line charts for numerical trends[cite: 4].
+  - Built with `openpyxl` to automatically build data dashboards.
+  - **Summary Cards**: Computes summary statistics including Count, Average, Max, and Min for numeric columns.
+  - **Dynamic Charts**: Automatically creates line charts for numerical trends.
 
 - **🖥️ Thread-Safe Execution & Progress Management**
   - Easy-to-use desktop GUI built with Tkinter.
